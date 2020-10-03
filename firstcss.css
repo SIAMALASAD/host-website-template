@@ -162,7 +162,7 @@ body {
   border-bottom: 5px solid white;
 }
 
-.main-header>div {
+.main-header > div {
   display: inline-block;
   vertical-align: middle;
 }
@@ -199,4 +199,27 @@ body {
   color: #ff1b68;
   background: white;
   border: none;
+}
+.main-footer {
+  background: #424242;
+  padding: 28px;
+  margin-top: 50px;
+}
+.main-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+.main-footer__link a {
+  text-decoration: none;
+  color: white;
+}
+.main-footer a:hover,
+.main-footer a:active {
+  color: #ccc;
 }
