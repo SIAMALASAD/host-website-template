@@ -2,12 +2,24 @@ main {
   padding-top: 32px;
 }
 
+.background {
+  background: url("plans-background.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 .packages {
   margin: 16px 0;
   border: 3px solid #0e4f1f;
   border-left: none;
   width: 60%;
   background: rgba(130, 229, 213, 0.32);
+}
+
+.background {
+  background: url("plans-background.jpg");
 }
 
 .packages a {
