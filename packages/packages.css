@@ -16,6 +16,7 @@ main {
   border-left: none;
   width: 60%;
   background: rgba(130, 229, 213, 0.32);
+  position: relative;
 }
 
 .background {
@@ -47,6 +48,17 @@ main {
 
 #plus {
   background: rgba(213, 255, 220, 0.95);
+}
+
+.package_badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 14px;
+  color: white;
+  background: #ff5454;
+  padding: 8px;
 }
 
 #free {
