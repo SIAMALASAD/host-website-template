@@ -1,5 +1,5 @@
 main {
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .background {
@@ -12,8 +12,8 @@ main {
 }
 
 .packages {
-  margin: 16px 0;
-  border: 3px solid #0e4f1f;
+  margin: 1rem 0;
+  border: 0.2rem solid #0e4f1f;
   border-left: none;
   width: 60%;
   background: rgba(130, 229, 213, 0.32);
@@ -28,7 +28,7 @@ main {
   text-decoration: none;
   color: black;
   display: block;
-  padding: 32px;
+  padding: 2rem;
 }
 
 .package-sub__heading {
@@ -37,8 +37,8 @@ main {
 
 .packages_p {
   border: 1px solid #0e4f1f;
-  padding: 16px;
-  font-size: 20px;
+  padding: 1rem;
+  font-size: 1.2rem;
   color: #0e4f1f;
   background: white;
 }
@@ -55,11 +55,11 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 20px;
+  margin: 1.2rem;
   font-size: 14px;
   color: white;
   background: #ff5454;
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 #free {
